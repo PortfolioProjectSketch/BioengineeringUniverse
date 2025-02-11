@@ -3,67 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bioengineering Universe</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
+    <title>[Blog Post Title] - Bioengineering Universe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
 </head>
 <body>
-    <!-- Navbar -->
+
+    <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="logo">Bioengineering Universe</div>
         <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#research">Research</a></li>
-            <li><a href="#innovations">Innovations</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="innovations.html">Innovations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="author.html">About the Author</a></li>
         </ul>
     </nav>
 
-    <!-- Hero Section -->
-    <header id="home" class="hero">
-        <h1>Welcome to Bioengineering Universe</h1>
-        <p>Discover the future of bioengineering.</p>
-        <a href="#about" class="btn">Explore</a>
+    <!-- Blog Post Header -->
+    <header class="post-header">
+        <h1>[Blog Post Title]</h1>
+        <p class="post-meta">By <span class="author-name">[Your Name]</span> | Published on <span class="post-date">[Date]</span></p>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="section">
-        <h2>About Us</h2>
-        <p id="about-text">[Add your about text here]</p>
-    </section>
+    <!-- Single Image with a Frame -->
+    <div class="post-image framed">
+        <img src="images/placeholder.jpg" alt="[Blog Post Title]">
+        <p class="image-caption">[Caption for the image]</p>
+    </div>
 
-    <!-- Research Section -->
-    <section id="research" class="section">
-        <h2>Our Research</h2>
-        <p>[Brief research introduction]</p>
-        <button class="read-more-btn" data-target="research-more">Read More</button>
-        <p class="more-content" id="research-more">[Detailed research content]</p>
-    </section>
+    <!-- Side-by-Side Images -->
+    <div class="image-row">
+        <div class="image-container">
+            <img src="images/image1.jpg" alt="Image 1">
+            <p class="image-caption">[Caption for Image 1]</p>
+        </div>
+        <div class="image-container">
+            <img src="images/image2.jpg" alt="Image 2">
+            <p class="image-caption">[Caption for Image 2]</p>
+        </div>
+    </div>
 
-    <!-- Innovations Section -->
-    <section id="innovations" class="section">
-        <h2>Latest Innovations</h2>
-        <p>[Brief innovation overview]</p>
-        <button class="read-more-btn" data-target="innovations-more">Read More</button>
-        <p class="more-content" id="innovations-more">[Detailed innovation content]</p>
-    </section>
+    <!-- Blog Content -->
+    <article class="post-content">
+        <p>[Insert the introduction of your blog here...]</p>
+        <h2>[Heading 1]</h2>
+        <p>[Write about this section in detail...]</p>
+        <h2>[Heading 2]</h2>
+        <p>[Continue with your blog content...]</p>
+        <blockquote>"[Insert a powerful quote or key takeaway here.]"</blockquote>
+        <p>[Add a conclusion or final thoughts...]</p>
+    </article>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <h2>Contact Us</h2>
-        <form id="contact-form">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <textarea id="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-        <p id="form-message"></p>
-    </section>
+    <!-- Back to Blog Button -->
+    <div class="back-to-blog">
+        <a href="blog.html">← Back to Blog</a>
+    </div>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Bioengineering Universe. All Rights Reserved.</p>
+        <p>&copy; 2025 Bioengineering Universe. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
